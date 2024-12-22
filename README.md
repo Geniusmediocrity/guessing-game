@@ -1,1 +1,1 @@
-# guessing-game
+# mini-projects

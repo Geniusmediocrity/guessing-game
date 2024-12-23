@@ -12,7 +12,7 @@ from termcolor import colored
 def foolproof(check, x, y):
     returner = check.isdigit() and x <= int(check) <= y
     if not returner:
-        print(colored('eror 422, please, try again late', 'red') )
+        print(colored('eror 422, please, try again late', 'red', attrs=["bold"]) )
         return returner
     else:
         return returner
